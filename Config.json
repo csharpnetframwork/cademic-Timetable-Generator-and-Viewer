@@ -1,0 +1,36 @@
+{
+  "input": {
+    "folder": "C:/Users/visha/OneDrive/Desktop/Python/Prectice",
+    "filename": "Timetable.xlsx"
+  },
+  "output": {
+    "folder": "C:/Users/visha/OneDrive/Desktop/Python/Prectice/output",
+    "filename": "timetable.csv"
+  },
+  "timetable": {
+    "start_date": "2025-07-07",
+    "university_start_time": "09:00",
+    "university_end_time": "17:00",
+    "lunch_time": "13:00-13:30"
+  },
+  "special_rules": {
+    "1st": {
+      "Elective_Day": "Friday",
+      "Elective_Hours": 4,
+      "Remedial": true,
+      "General_Education_Hours": 8
+    },
+    "3rd": {
+      "Elective_Day": "Friday",
+      "Elective_Hours": 4,
+      "Remedial": true,
+      "General_Education_Hours": 8
+    },
+    "5th": {
+      "Elective_Day": "Thursday",
+      "Elective_Hours": 3,
+      "Remedial": false,
+      "General_Education_Hours": 8
+    }
+  }
+}
